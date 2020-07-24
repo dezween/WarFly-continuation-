@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		044B94FD24CB76A60091730C /* PauseScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044B94FC24CB76A60091730C /* PauseScene.swift */; };
 		04E4AFD824C3C60000DFC18B /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E4AFD724C3C60000DFC18B /* Assets.swift */; };
 		04E4AFDA24C3CE1900DFC18B /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E4AFD924C3CE1900DFC18B /* MenuScene.swift */; };
 		04E4AFDC24C5E61400DFC18B /* BitMaskCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E4AFDB24C5E61400DFC18B /* BitMaskCategory.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		044B94FC24CB76A60091730C /* PauseScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PauseScene.swift; sourceTree = "<group>"; };
 		04E4AFD724C3C60000DFC18B /* Assets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
 		04E4AFD924C3CE1900DFC18B /* MenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
 		04E4AFDB24C5E61400DFC18B /* BitMaskCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitMaskCategory.swift; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				04E4AFD924C3CE1900DFC18B /* MenuScene.swift */,
+				044B94FC24CB76A60091730C /* PauseScene.swift */,
 				C9CB4DFD1EA7843F001BDB4E /* GameScene.swift */,
 			);
 			name = Scenes;
@@ -282,6 +285,7 @@
 				C92FA9D31EBC6FD4008DF225 /* PowerUp.swift in Sources */,
 				04E4AFDC24C5E61400DFC18B /* BitMaskCategory.swift in Sources */,
 				04E4AFDA24C3CE1900DFC18B /* MenuScene.swift in Sources */,
+				044B94FD24CB76A60091730C /* PauseScene.swift in Sources */,
 				04E4AFDE24CA0D8E00DFC18B /* HUD.swift in Sources */,
 				C9BA012C1EC9D20400520CAA /* Shot.swift in Sources */,
 				C9CB4E121EA78A6D001BDB4E /* Background.swift in Sources */,
