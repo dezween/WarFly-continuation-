@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		044B94FD24CB76A60091730C /* PauseScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044B94FC24CB76A60091730C /* PauseScene.swift */; };
+		044B94FF24CB7B1B0091730C /* SceneManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044B94FE24CB7B1B0091730C /* SceneManager.swift */; };
 		04E4AFD824C3C60000DFC18B /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E4AFD724C3C60000DFC18B /* Assets.swift */; };
 		04E4AFDA24C3CE1900DFC18B /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E4AFD924C3CE1900DFC18B /* MenuScene.swift */; };
 		04E4AFDC24C5E61400DFC18B /* BitMaskCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E4AFDB24C5E61400DFC18B /* BitMaskCategory.swift */; };
@@ -40,6 +41,7 @@
 
 /* Begin PBXFileReference section */
 		044B94FC24CB76A60091730C /* PauseScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PauseScene.swift; sourceTree = "<group>"; };
+		044B94FE24CB7B1B0091730C /* SceneManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneManager.swift; sourceTree = "<group>"; };
 		04E4AFD724C3C60000DFC18B /* Assets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
 		04E4AFD924C3CE1900DFC18B /* MenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
 		04E4AFDB24C5E61400DFC18B /* BitMaskCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitMaskCategory.swift; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 			children = (
 				04E4AFD724C3C60000DFC18B /* Assets.swift */,
 				04E4AFDB24C5E61400DFC18B /* BitMaskCategory.swift */,
+				044B94FE24CB7B1B0091730C /* SceneManager.swift */,
 			);
 			name = Managers;
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 				C9813BD11EB1C1CE00E20151 /* protocol GameBackgroundSpriteable + Extension.swift in Sources */,
 				04E4AFD824C3C60000DFC18B /* Assets.swift in Sources */,
 				C9CA50E11EC48B8100970D2E /* Enemy.swift in Sources */,
+				044B94FF24CB7B1B0091730C /* SceneManager.swift in Sources */,
 				C945F6321EC6DA76003E5D62 /* GreenPowerUp.swift in Sources */,
 				C9CB4E141EA78DC0001BDB4E /* Island.swift in Sources */,
 				C92FA9D31EBC6FD4008DF225 /* PowerUp.swift in Sources */,
