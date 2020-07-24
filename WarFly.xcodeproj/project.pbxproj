@@ -11,6 +11,7 @@
 		044B94FF24CB7B1B0091730C /* SceneManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044B94FE24CB7B1B0091730C /* SceneManager.swift */; };
 		044B950124CB8ADA0091730C /* ParentScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044B950024CB8ADA0091730C /* ParentScene.swift */; };
 		044B950324CB8D720091730C /* OptionsScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044B950224CB8D720091730C /* OptionsScene.swift */; };
+		044B950524CB971C0091730C /* BestScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044B950424CB971C0091730C /* BestScene.swift */; };
 		04E4AFD824C3C60000DFC18B /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E4AFD724C3C60000DFC18B /* Assets.swift */; };
 		04E4AFDA24C3CE1900DFC18B /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E4AFD924C3CE1900DFC18B /* MenuScene.swift */; };
 		04E4AFDC24C5E61400DFC18B /* BitMaskCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E4AFDB24C5E61400DFC18B /* BitMaskCategory.swift */; };
@@ -46,6 +47,7 @@
 		044B94FE24CB7B1B0091730C /* SceneManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneManager.swift; sourceTree = "<group>"; };
 		044B950024CB8ADA0091730C /* ParentScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentScene.swift; sourceTree = "<group>"; };
 		044B950224CB8D720091730C /* OptionsScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsScene.swift; sourceTree = "<group>"; };
+		044B950424CB971C0091730C /* BestScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestScene.swift; sourceTree = "<group>"; };
 		04E4AFD724C3C60000DFC18B /* Assets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
 		04E4AFD924C3CE1900DFC18B /* MenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
 		04E4AFDB24C5E61400DFC18B /* BitMaskCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitMaskCategory.swift; sourceTree = "<group>"; };
@@ -149,10 +151,11 @@
 			isa = PBXGroup;
 			children = (
 				04E4AFD924C3CE1900DFC18B /* MenuScene.swift */,
-				044B950224CB8D720091730C /* OptionsScene.swift */,
 				044B94FC24CB76A60091730C /* PauseScene.swift */,
-				044B950024CB8ADA0091730C /* ParentScene.swift */,
+				044B950424CB971C0091730C /* BestScene.swift */,
+				044B950224CB8D720091730C /* OptionsScene.swift */,
 				C9CB4DFD1EA7843F001BDB4E /* GameScene.swift */,
+				044B950024CB8ADA0091730C /* ParentScene.swift */,
 			);
 			name = Scenes;
 			sourceTree = "<group>";
@@ -293,6 +296,7 @@
 				C945F6321EC6DA76003E5D62 /* GreenPowerUp.swift in Sources */,
 				C9CB4E141EA78DC0001BDB4E /* Island.swift in Sources */,
 				C92FA9D31EBC6FD4008DF225 /* PowerUp.swift in Sources */,
+				044B950524CB971C0091730C /* BestScene.swift in Sources */,
 				04E4AFDC24C5E61400DFC18B /* BitMaskCategory.swift in Sources */,
 				04E4AFDA24C3CE1900DFC18B /* MenuScene.swift in Sources */,
 				044B950124CB8ADA0091730C /* ParentScene.swift in Sources */,
