@@ -12,6 +12,7 @@
 		044B950124CB8ADA0091730C /* ParentScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044B950024CB8ADA0091730C /* ParentScene.swift */; };
 		044B950324CB8D720091730C /* OptionsScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044B950224CB8D720091730C /* OptionsScene.swift */; };
 		044B950524CB971C0091730C /* BestScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044B950424CB971C0091730C /* BestScene.swift */; };
+		044B950724CB9D560091730C /* EnemyExplosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 044B950624CB9D560091730C /* EnemyExplosion.sks */; };
 		04E4AFD824C3C60000DFC18B /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E4AFD724C3C60000DFC18B /* Assets.swift */; };
 		04E4AFDA24C3CE1900DFC18B /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E4AFD924C3CE1900DFC18B /* MenuScene.swift */; };
 		04E4AFDC24C5E61400DFC18B /* BitMaskCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E4AFDB24C5E61400DFC18B /* BitMaskCategory.swift */; };
@@ -48,6 +49,7 @@
 		044B950024CB8ADA0091730C /* ParentScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentScene.swift; sourceTree = "<group>"; };
 		044B950224CB8D720091730C /* OptionsScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsScene.swift; sourceTree = "<group>"; };
 		044B950424CB971C0091730C /* BestScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestScene.swift; sourceTree = "<group>"; };
+		044B950624CB9D560091730C /* EnemyExplosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = EnemyExplosion.sks; sourceTree = "<group>"; };
 		04E4AFD724C3C60000DFC18B /* Assets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
 		04E4AFD924C3CE1900DFC18B /* MenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
 		04E4AFDB24C5E61400DFC18B /* BitMaskCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitMaskCategory.swift; sourceTree = "<group>"; };
@@ -91,6 +93,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		044B950824CB9D6D0091730C /* Particals */ = {
+			isa = PBXGroup;
+			children = (
+				044B950624CB9D560091730C /* EnemyExplosion.sks */,
+			);
+			name = Particals;
+			sourceTree = "<group>";
+		};
 		04E4AFDF24CA0FAB00DFC18B /* Supporting files */ = {
 			isa = PBXGroup;
 			children = (
@@ -192,6 +202,7 @@
 		C9CB4DF61EA7843F001BDB4E /* WarFly */ = {
 			isa = PBXGroup;
 			children = (
+				044B950824CB9D6D0091730C /* Particals */,
 				04E4AFE424CA138D00DFC18B /* Scenes */,
 				04E4AFE324CA137C00DFC18B /* Managers */,
 				04E4AFE224CA136C00DFC18B /* Classes */,
@@ -269,6 +280,7 @@
 				C9CB4E031EA7843F001BDB4E /* Main.storyboard in Resources */,
 				C92FA9D51EBC7080008DF225 /* GreenPowerUp.atlas in Resources */,
 				C9813BCF1EAE15D800E20151 /* PlayerPlane.atlas in Resources */,
+				044B950724CB9D560091730C /* EnemyExplosion.sks in Resources */,
 				C9CB4E051EA7843F001BDB4E /* Assets.xcassets in Resources */,
 				C945F62E1EC6D809003E5D62 /* BluePowerUp.atlas in Resources */,
 				C9CB4E081EA7843F001BDB4E /* LaunchScreen.storyboard in Resources */,
