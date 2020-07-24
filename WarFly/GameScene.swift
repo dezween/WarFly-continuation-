@@ -35,7 +35,7 @@ class GameScene: ParentScene {
             }
         }
     }
-
+    
     override func didMove(to view: SKView) {
         
         self.scene?.isPaused = false
@@ -62,10 +62,10 @@ class GameScene: ParentScene {
         hud.configureUI(screenSize: screenSize)
     }
     
-
+    
     
     fileprivate func spawnPowerUp() {
-
+        
         let spawnAction = SKAction.run { 
             let randomNumber = Int(arc4random_uniform(2))
             let powerUp = randomNumber == 1 ? BluePowerUp() : GreenPowerUp()
@@ -226,18 +226,24 @@ extension GameScene: SKPhysicsContactDelegate  {
                 lives -= 1
             }
         }
-            addChild(explosion!)
-            self.run(waitForExplosionAction) { explosion?.removeFromParent() }
-            
-            print(lives)
+        addChild(explosion!)
+        self.run(waitForExplosionAction) { explosion?.removeFromParent() }
+        
+        if lives == 0 {
+            let gameOverScene = GameOverScene(size: self.size)
+            gameOverScene.scaleMode = .aspectFill
+            let transition = SKTransition.doorsCloseVertical(withDuration: 1.0)
+            self.scene!.view?.presentScene(gameOverScene, transition: transition)
+        }
             
         case [.powerUp, .player]: print("powerUp vc player")
         case [.enemy, .shot]: print("enemy vc shot")
+        hud.score += 5
         
-            contact.bodyA.node?.removeFromParent()
-            contact.bodyB.node?.removeFromParent()
-            addChild(explosion!)
-            self.run(waitForExplosionAction) { explosion?.removeFromParent() }
+        contact.bodyA.node?.removeFromParent()
+        contact.bodyB.node?.removeFromParent()
+        addChild(explosion!)
+        self.run(waitForExplosionAction) { explosion?.removeFromParent() }
             
         default: preconditionFailure("Unable to detect collision category")
         }
