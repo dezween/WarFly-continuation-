@@ -16,6 +16,7 @@
 		044B950A24CBA7770091730C /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044B950924CBA7770091730C /* GameOverScene.swift */; };
 		044B950D24CBB58B0091730C /* backgroundMusic.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 044B950B24CBB58B0091730C /* backgroundMusic.m4a */; };
 		044B950E24CBB58B0091730C /* hitSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 044B950C24CBB58B0091730C /* hitSound.wav */; };
+		044B951024CC8F5F0091730C /* GameSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044B950F24CC8F5F0091730C /* GameSettings.swift */; };
 		04E4AFD824C3C60000DFC18B /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E4AFD724C3C60000DFC18B /* Assets.swift */; };
 		04E4AFDA24C3CE1900DFC18B /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E4AFD924C3CE1900DFC18B /* MenuScene.swift */; };
 		04E4AFDC24C5E61400DFC18B /* BitMaskCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E4AFDB24C5E61400DFC18B /* BitMaskCategory.swift */; };
@@ -56,6 +57,7 @@
 		044B950924CBA7770091730C /* GameOverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
 		044B950B24CBB58B0091730C /* backgroundMusic.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = backgroundMusic.m4a; sourceTree = "<group>"; };
 		044B950C24CBB58B0091730C /* hitSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hitSound.wav; sourceTree = "<group>"; };
+		044B950F24CC8F5F0091730C /* GameSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSettings.swift; sourceTree = "<group>"; };
 		04E4AFD724C3C60000DFC18B /* Assets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
 		04E4AFD924C3CE1900DFC18B /* MenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
 		04E4AFDB24C5E61400DFC18B /* BitMaskCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitMaskCategory.swift; sourceTree = "<group>"; };
@@ -159,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				04E4AFD724C3C60000DFC18B /* Assets.swift */,
+				044B950F24CC8F5F0091730C /* GameSettings.swift */,
 				04E4AFDB24C5E61400DFC18B /* BitMaskCategory.swift */,
 				044B94FE24CB7B1B0091730C /* SceneManager.swift */,
 			);
@@ -307,6 +310,7 @@
 			files = (
 				C9CB4DFE1EA7843F001BDB4E /* GameScene.swift in Sources */,
 				C9BA012E1EC9D3A400520CAA /* YellowShot.swift in Sources */,
+				044B951024CC8F5F0091730C /* GameSettings.swift in Sources */,
 				C9813B981EAE14FE00E20151 /* PlayerPlane.swift in Sources */,
 				C9CB4E181EA8FD89001BDB4E /* Cloud.swift in Sources */,
 				C9CB4E001EA7843F001BDB4E /* GameViewController.swift in Sources */,
